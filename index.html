@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetrun</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Bar with Tabs and Logo -->
+    <div class="top-bar">
+        <a href="#home" class="tab" onclick="showSection('home')">Home</a>
+        <a href="#download" class="tab" onclick="showSection('download')">Download</a>
+        <img src="C:\Users\liamd\OneDrive\Desktop\html\Assets\Discord1.png" alt="Logo" class="logo" onclick="openDiscordLink()">
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <section id="home" class="section active">
+            <div class="title">Vetrun</div>
+            <p class="animated-text">2024, Vetrun was created from scratch using ForlornApi, but soon we will create our OWN powerful API.</p>
+            <button class="get-started" onclick="showSection('download')">Get Started</button>
+        </section>
+
+        <section id="download" class="section">
+            <h2>Download Vetrun</h2>
+            <div class="download-container">
+                <img src= "C:\Users\liamd\OneDrive\Desktop\html\Assets\Discord1.png" alt="Download Image" class="download-image">
+                <p class="download-description">Get the latest version of Vetrun and start exploring powerful exploit tools built with high performance in mind.</p>
+                <button class="download-button">Download</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 Exploit Services. All Rights Reserved.
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
